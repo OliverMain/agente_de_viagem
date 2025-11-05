@@ -1,0 +1,56 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ---- Virtual Environment ----
+venv/
+.env/
+.env.bak/
+env/
+.venv/
+
+# ---- Environment Variables ----
+.env
+
+# ---- IDEs & Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs & Temp ----
+*.log
+*.tmp
+*.temp
+*.pid
+*.gz
+
+# ---- Cache & Build ----
+build/
+dist/
+htmlcov/
+.coverage
+.cache/
+pytest_cache/
+pip-wheel-metadata/
+
+# ---- LangChain Data ----
+# Vetores, caches, bancos locais, etc.
+chroma/
+faiss_index/
+vectorstore/
+langchain.db
+cache/
+
